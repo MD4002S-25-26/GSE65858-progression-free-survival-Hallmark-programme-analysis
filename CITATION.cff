@@ -4,7 +4,7 @@ title: "Analysis code for: Programme-level transcriptomic associations with prog
 authors:
   - family-names: Ferguson
     given-names: "Lloyd J."
-    # orcid: TODO
+    orcid: "https://orcid.org/0009-0009-3377-011X"
   - family-names: Gardner
     given-names: "Alex"   # TODO: confirm full name and add orcid
 license: MIT

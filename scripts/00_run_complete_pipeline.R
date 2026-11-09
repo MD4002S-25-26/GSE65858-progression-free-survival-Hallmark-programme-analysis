@@ -38,6 +38,12 @@ source("scripts/17_run_all_supplementary_tables.R")
 # Step 18: leading-edge overlap analysis added for the manuscript
 source("scripts/18_leading_edge_overlap.R")
 
+# Step 20: median follow-up (STROBE 14c); run before the final verification step
+source("scripts/20_median_followup.R")
+
+# Step 21: post hoc treatment-adjusted sensitivity analysis (plan: verification/treatment_sensitivity_plan_2026-11-09.md)
+source("scripts/21_treatment_sensitivity.R")
+
 # Step 19: confirm the headline numbers reported in the manuscript
 source("scripts/19_verify_headline_results.R")
 

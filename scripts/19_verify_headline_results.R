@@ -33,6 +33,20 @@ check("Cox: 250 patients, 120 events", all(cx$n == 250) && all(cx$events == 120)
 check("Cox: 4 nominal, none with q < 0.05", sum(cx$p_value < 0.05) == 4 && sum(cx$p_adj_BH < 0.05) == 0)
 check("Cox: pathway-specific PH p < 0.05 in 11 models, no global test < 0.05", sum(cx$pathway_PH_p < 0.05) == 11 && sum(cx$global_PH_p < 0.05) == 0)
 
+fu <- read.csv("results_v2/median_followup.csv")
+check("median follow-up: 270 patients, 1003 days (33.0 months)", fu$n[1] == 270 && near(fu$median_followup_days[1], 1003, 0.5) && near(fu$median_followup_months[1], 33.0, 0.05))
+check("median follow-up: 250 Cox patients, 1002 days (32.9 months)", fu$n[2] == 250 && near(fu$median_followup_days[2], 1002, 0.5) && near(fu$median_followup_months[2], 32.9, 0.05))
+
+# Regression checks for the post hoc treatment sensitivity analysis (added after it was run; the plan
+# itself was fixed beforehand). They confirm that a fresh run gives the same numbers.
+ts <- read.csv("results_v2/treatment_sensitivity/summary_P1_to_P5.csv")
+tp <- ts[ts$coding == "primary", ]
+check("treatment sensitivity: 222 patients, all 23 sets keep NES sign", tp$n_limma_cohort == 222 && tp$P1_sets_keeping_NES_sign_of_23 == 23)
+check("treatment sensitivity: 17 of 23 sets remain q < 0.05, 1 other set newly q < 0.05", tp$P2_sets_still_q_below_0.05_of_23 == 17 && tp$P2_other_sets_newly_q_below_0.05 == 1)
+check("treatment sensitivity: median NES ratio 0.937, Spearman t 0.986", near(tp$P3_median_NES_ratio, 0.937, 0.001) && near(tp$P4_spearman_t_main_vs_sens, 0.9862, 0.0005))
+check("treatment sensitivity: no gene and no score or Cox model reaches q < 0.05", tp$P4_genes_q_below_0.05_sens == 0 && tp$P5_score_any_q_below_0.05 == 0 && tp$P5_cox_any_q_below_0.05 == 0)
+check("treatment sensitivity: described as partly attenuated", tp$prespecified_description == "partly attenuated")
+
 ov <- read.csv("results_v2/leading_edge/overall_redundancy.csv")
 val <- function(m) as.numeric(ov$value[ov$metric == m])
 check("leading edge: 23 sets, 1,533 entries, 1,128 unique genes", val("significant sets") == 23 && val("leading-edge gene incidences (sum over sets)") == 1533 && val("unique leading-edge genes") == 1128)

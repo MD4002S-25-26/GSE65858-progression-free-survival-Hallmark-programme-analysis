@@ -43,10 +43,18 @@ gunzip_file <- function(gz, out) {
 }
 
 fetch_and_check <- function(url, gz, txt, expected_md5) {
+  # An empty or half-written file left by an interrupted earlier run is discarded
+  if (file.exists(txt) && file.size(txt) == 0) unlink(txt)
+  if (file.exists(gz) && file.size(gz) == 0) unlink(gz)
   if (!file.exists(txt)) {
     if (!file.exists(gz)) {
       message("Downloading ", basename(gz))
-      download.file(url, gz, mode = "wb", quiet = TRUE)
+      ok <- tryCatch({ download.file(url, gz, mode = "wb", quiet = TRUE); TRUE },
+                     error = function(e) FALSE, warning = function(w) FALSE)
+      if (!ok) {
+        unlink(gz)
+        stop("Download of ", basename(gz), " failed or was incomplete; check the connection and run the script again.")
+      }
     }
     gunzip_file(gz, txt)
   }
