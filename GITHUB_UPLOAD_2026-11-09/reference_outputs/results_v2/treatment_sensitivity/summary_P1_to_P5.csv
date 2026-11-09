@@ -1,0 +1,3 @@
+"coding","n_limma_cohort","P1_sets_keeping_NES_sign_of_23","P2_sets_still_q_below_0.05_of_23","P2_other_sets_newly_q_below_0.05","P3_median_NES_ratio","P3_min_NES_ratio","P3_max_NES_ratio","P4_spearman_t_main_vs_sens","P4_genes_q_below_0.05_sens","P5_score_nominal_main","P5_score_direction_kept","P5_score_still_p_below_0.05","P5_score_any_q_below_0.05","P5_cox_nominal_main","P5_cox_direction_kept","P5_cox_still_p_below_0.05","P5_cox_any_q_below_0.05","prespecified_description"
+"primary",222,23,17,1,0.937,0.757,1.115,0.9862,0,9,9,7,0,4,4,2,0,"partly attenuated"
+"exclude_palliative",221,23,17,0,0.956,0.858,1.106,0.982,0,9,9,6,0,4,4,2,0,"partly attenuated"
