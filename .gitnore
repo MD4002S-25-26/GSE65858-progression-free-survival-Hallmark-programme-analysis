@@ -1,0 +1,13 @@
+data_raw/
+results_v2/
+figures_v2/
+tables_v2/
+supplementary_tables/
+*.rds
+GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt
+pheno_analysis_corrected_landmark.csv
+Rplots.pdf
+run_log.txt
+.Rhistory
+.RData
+.DS_Store
