@@ -1,0 +1,1028 @@
+Checksum OK: GSE65858_series_matrix.txt
+Checksum OK: GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt
+Wrote pheno3_matched.rds (270 samples) and expr2_probe_matrix.rds (31330 probes)
+
+PFS-event-free at 2 years  PFS event within 2 years   Censored before 2 years 
+                      135                       106                        29 
+                           sample_pfs_event
+pfs_2yr_group                 0   1
+  PFS-event-free at 2 years 108  27
+  PFS event within 2 years    0 106
+  Censored before 2 years    29   0
+Events occurring after 2 years: 27 
+Censored before or at 2 years: 29 
+Original probe-level matrix dimensions: 31330 rows x 271 columns
+Number of expression samples: 270 
+Full annotation dimensions: 48240 rows x 28 columns
+Human annotation probes: 47231 
+Expression probes matched to GPL10558: 31330 of 31330 
+Annotated probe matrix dimensions: 31330 rows x 274 columns
+Probes with valid gene symbols: 29112 
+Unique valid gene symbols: 22001 
+Final gene-level matrix dimensions: 22001 genes x 270 samples
+# A tibble: 6 × 5
+  Symbol GSM1607684 GSM1607685 GSM1607686 GSM1607687
+  <chr>       <dbl>      <dbl>      <dbl>      <dbl>
+1 7A5          6.43       6.46       6.53       6.54
+2 A1BG         6.56       6.48       6.40       6.52
+3 A26C3        6.47       6.42       6.36       6.42
+4 A2BP1        6.32       6.29       6.37       6.32
+5 A2LD1        7.35       7.49       6.75       6.93
+6 A2M         10.0        9.13      10.2        8.91
+
+Probe-to-gene mapping completed successfully.
+Saved: expr_gene_level.rds
+Saved: results_v2/GSE65858_gene_level_expression.csv
+
+  Event_free_2y Early_PFS_event 
+            135             106 
+[1] 22001   241
+Expression and phenotype alignment: TRUE 
+[1] "(Intercept)"          "groupEarly_PFS_event"
+                   Symbol       logFC   AveExpr         t      P.Value
+MIR106A           MIR106A  0.03884658  6.468105  4.403278 1.604594e-05
+ZWINT               ZWINT -0.11558863  7.261059 -4.150036 4.614686e-05
+GINS3               GINS3 -0.16589780  8.014199 -3.912717 1.188068e-04
+AMIGO2             AMIGO2 -0.03092502  6.448762 -3.846642 1.534006e-04
+DCI                   DCI -0.14605646  7.976977 -3.781547 1.966624e-04
+SCYE1               SCYE1 -0.03789265  6.487343 -3.769007 2.062246e-04
+TUBB1               TUBB1  0.05077966  6.442946  3.731810 2.372398e-04
+KIAA0408         KIAA0408  0.06588394  6.862847  3.695434 2.717915e-04
+SSX5                 SSX5 -0.03723131  6.362855 -3.663516 3.059651e-04
+RNF216             RNF216  0.10587888  7.677130  3.659330 3.107370e-04
+PER3                 PER3 -0.16602428  7.292750 -3.504341 5.457037e-04
+ZNF844             ZNF844  0.06416992  6.557880  3.493126 5.679768e-04
+RALGPS2           RALGPS2  0.07219538  6.794062  3.472767 6.106048e-04
+ATP1A1             ATP1A1 -0.17764112 10.440011 -3.434100 6.999297e-04
+ALAS2               ALAS2  0.04928461  6.461736  3.416342 7.449228e-04
+LOC100130919 LOC100130919 -0.13704517 10.541189 -3.403960 7.778784e-04
+LOC100130229 LOC100130229  0.18440770  7.292837  3.392564 8.094103e-04
+PCDHB16           PCDHB16  0.08833575  6.598508  3.362467 8.985122e-04
+MIR300             MIR300  0.03938086  6.627517  3.341401 9.662358e-04
+HECW2               HECW2  0.10085855  7.092254  3.337272 9.800543e-04
+             adj.P.Val            B
+MIR106A      0.3530268  2.712174801
+ZWINT        0.5076385  1.732553065
+GINS3        0.6836525  0.860103985
+AMIGO2       0.6836525  0.625192599
+DCI          0.6836525  0.397212992
+SCYE1        0.6836525  0.353690166
+TUBB1        0.6836525  0.225342542
+KIAA0408     0.6836525  0.100918219
+SSX5         0.6836525 -0.007359061
+RNF216       0.6836525 -0.021499910
+PER3         0.9268409 -0.534803988
+ZNF844       0.9268409 -0.571171186
+RALGPS2      0.9268409 -0.636925889
+ATP1A1       0.9268409 -0.760851914
+ALAS2        0.9268409 -0.817345503
+LOC100130919 0.9268409 -0.856579175
+LOC100130229 0.9268409 -0.892576657
+PCDHB16      0.9268409 -0.987114665
+MIR300       0.9268409 -1.052834059
+HECW2        0.9268409 -1.065670302
+Genes with BH-adjusted p < 0.05: 0 
+Genes with absolute log2 fold change > 1: 0 
+
+  Event_free_2y Early_PFS_event 
+            125              97 
+
+  I  II III IVA IVB IVC 
+ 16  30  33 122  15   6 
+
+    DNA- DNA+RNA- DNA+RNA+ 
+     176       16       30 
+Adjusted model sample size: 222 
+Samples removed for missing covariates: 19 
+Expression and phenotype alignment: TRUE 
+[1] 22001   222
+[1] "(Intercept)"                  "sample_uicc_stageII"         
+[3] "sample_uicc_stageIII"         "sample_uicc_stageIVA"        
+[5] "sample_uicc_stageIVB"         "sample_uicc_stageIVC"        
+[7] "sample_hpv16_dna_rnaDNA+RNA-" "sample_hpv16_dna_rnaDNA+RNA+"
+[9] "groupEarly_PFS_event"        
+[1] 222   9
+                   Symbol       logFC   AveExpr         t      P.Value
+AMIGO2             AMIGO2 -0.03549652  6.447111 -4.122937 5.345661e-05
+RNU6-1             RNU6-1  0.20746302  9.206895  4.046285 7.260555e-05
+OSBPL8             OSBPL8  0.13036840  8.358294  3.924701 1.169393e-04
+MIR106A           MIR106A  0.03863672  6.467729  3.904480 1.264493e-04
+IGF1R               IGF1R -0.06082070  6.450099 -3.860090 1.499634e-04
+MTHFD1             MTHFD1 -0.12764547  7.307747 -3.759309 2.196488e-04
+CTTN                 CTTN -0.33375585  8.630100 -3.731227 2.439555e-04
+BCAM                 BCAM -0.06047831  6.504099 -3.704614 2.693167e-04
+POLR2C             POLR2C -0.12446978  7.647100 -3.699224 2.747481e-04
+RAN                   RAN -0.12626661  9.709309 -3.684931 2.896547e-04
+CLSTN1             CLSTN1 -0.13002703  8.047777 -3.625222 3.605744e-04
+PSMD7               PSMD7 -0.16757476  9.209549 -3.568629 4.426263e-04
+ATP1A1             ATP1A1 -0.20358849 10.431637 -3.563906 4.502132e-04
+SSX5                 SSX5 -0.03770405  6.360971 -3.560213 4.562318e-04
+GOT2                 GOT2 -0.20293511 10.063885 -3.537471 4.949916e-04
+RNF216             RNF216  0.10952137  7.674667  3.509350 5.471965e-04
+LOC100130229 LOC100130229  0.21191521  7.297325  3.493739 5.783634e-04
+ZNF844             ZNF844  0.06976426  6.555880  3.488930 5.882931e-04
+KIAA0408         KIAA0408  0.06843998  6.858857  3.485351 5.957895e-04
+RNU6-15           RNU6-15  0.17932569  9.197591  3.477198 6.131971e-04
+             adj.P.Val           B
+AMIGO2       0.6283732  1.64189702
+RNU6-1       0.6283732  1.36068922
+OSBPL8       0.6283732  0.92390908
+MIR106A      0.6283732  0.85237834
+IGF1R        0.6283732  0.69647013
+MTHFD1       0.6283732  0.34824402
+CTTN         0.6283732  0.25264306
+BCAM         0.6283732  0.16262450
+POLR2C       0.6283732  0.14445965
+RAN          0.6283732  0.09640584
+CLSTN1       0.6283732 -0.10257062
+PSMD7        0.6283732 -0.28851905
+ATP1A1       0.6283732 -0.30391825
+SSX5         0.6283732 -0.31594913
+GOT2         0.6283732 -0.38979008
+RNF216       0.6283732 -0.48051598
+LOC100130229 0.6283732 -0.53060326
+ZNF844       0.6283732 -0.54599011
+KIAA0408     0.6283732 -0.55743362
+RNU6-15      0.6283732 -0.58345599
+Genes with BH-adjusted p < 0.05: 0 
+Genes with absolute log2 fold change > 1: 0 
+
+Corrected adjusted limma analysis completed successfully.
+
+PFS-event-free at 2 years  PFS event within 2 years   Censored before 2 years 
+                      135                       106                        29 
+                           sample_pfs_event
+pfs_2yr_group                 0   1
+  PFS-event-free at 2 years 108  27
+  PFS event within 2 years    0 106
+  Censored before 2 years    29   0
+Events occurring after 2 years: 27 
+Censored before or at 2 years: 29 
+Original probe-level matrix dimensions: 31330 rows x 271 columns
+Number of expression samples: 270 
+Full annotation dimensions: 48240 rows x 28 columns
+Human annotation probes: 47231 
+Expression probes matched to GPL10558: 31330 of 31330 
+Annotated probe matrix dimensions: 31330 rows x 274 columns
+Probes with valid gene symbols: 29112 
+Unique valid gene symbols: 22001 
+Final gene-level matrix dimensions: 22001 genes x 270 samples
+# A tibble: 6 × 5
+  Symbol GSM1607684 GSM1607685 GSM1607686 GSM1607687
+  <chr>       <dbl>      <dbl>      <dbl>      <dbl>
+1 7A5          6.43       6.46       6.53       6.54
+2 A1BG         6.56       6.48       6.40       6.52
+3 A26C3        6.47       6.42       6.36       6.42
+4 A2BP1        6.32       6.29       6.37       6.32
+5 A2LD1        7.35       7.49       6.75       6.93
+6 A2M         10.0        9.13      10.2        8.91
+
+Probe-to-gene mapping completed successfully.
+Saved: expr_gene_level.rds
+Saved: results_v2/GSE65858_gene_level_expression.csv
+
+  Event_free_2y Early_PFS_event 
+            135             106 
+[1] 22001   241
+Expression and phenotype alignment: TRUE 
+[1] "(Intercept)"          "groupEarly_PFS_event"
+                   Symbol       logFC   AveExpr         t      P.Value
+MIR106A           MIR106A  0.03884658  6.468105  4.403278 1.604594e-05
+ZWINT               ZWINT -0.11558863  7.261059 -4.150036 4.614686e-05
+GINS3               GINS3 -0.16589780  8.014199 -3.912717 1.188068e-04
+AMIGO2             AMIGO2 -0.03092502  6.448762 -3.846642 1.534006e-04
+DCI                   DCI -0.14605646  7.976977 -3.781547 1.966624e-04
+SCYE1               SCYE1 -0.03789265  6.487343 -3.769007 2.062246e-04
+TUBB1               TUBB1  0.05077966  6.442946  3.731810 2.372398e-04
+KIAA0408         KIAA0408  0.06588394  6.862847  3.695434 2.717915e-04
+SSX5                 SSX5 -0.03723131  6.362855 -3.663516 3.059651e-04
+RNF216             RNF216  0.10587888  7.677130  3.659330 3.107370e-04
+PER3                 PER3 -0.16602428  7.292750 -3.504341 5.457037e-04
+ZNF844             ZNF844  0.06416992  6.557880  3.493126 5.679768e-04
+RALGPS2           RALGPS2  0.07219538  6.794062  3.472767 6.106048e-04
+ATP1A1             ATP1A1 -0.17764112 10.440011 -3.434100 6.999297e-04
+ALAS2               ALAS2  0.04928461  6.461736  3.416342 7.449228e-04
+LOC100130919 LOC100130919 -0.13704517 10.541189 -3.403960 7.778784e-04
+LOC100130229 LOC100130229  0.18440770  7.292837  3.392564 8.094103e-04
+PCDHB16           PCDHB16  0.08833575  6.598508  3.362467 8.985122e-04
+MIR300             MIR300  0.03938086  6.627517  3.341401 9.662358e-04
+HECW2               HECW2  0.10085855  7.092254  3.337272 9.800543e-04
+             adj.P.Val            B
+MIR106A      0.3530268  2.712174801
+ZWINT        0.5076385  1.732553065
+GINS3        0.6836525  0.860103985
+AMIGO2       0.6836525  0.625192599
+DCI          0.6836525  0.397212992
+SCYE1        0.6836525  0.353690166
+TUBB1        0.6836525  0.225342542
+KIAA0408     0.6836525  0.100918219
+SSX5         0.6836525 -0.007359061
+RNF216       0.6836525 -0.021499910
+PER3         0.9268409 -0.534803988
+ZNF844       0.9268409 -0.571171186
+RALGPS2      0.9268409 -0.636925889
+ATP1A1       0.9268409 -0.760851914
+ALAS2        0.9268409 -0.817345503
+LOC100130919 0.9268409 -0.856579175
+LOC100130229 0.9268409 -0.892576657
+PCDHB16      0.9268409 -0.987114665
+MIR300       0.9268409 -1.052834059
+HECW2        0.9268409 -1.065670302
+Genes with BH-adjusted p < 0.05: 0 
+Genes with absolute log2 fold change > 1: 0 
+
+  Event_free_2y Early_PFS_event 
+            125              97 
+
+  I  II III IVA IVB IVC 
+ 16  30  33 122  15   6 
+
+    DNA- DNA+RNA- DNA+RNA+ 
+     176       16       30 
+Adjusted model sample size: 222 
+Samples removed for missing covariates: 19 
+Expression and phenotype alignment: TRUE 
+[1] 22001   222
+[1] "(Intercept)"                  "sample_uicc_stageII"         
+[3] "sample_uicc_stageIII"         "sample_uicc_stageIVA"        
+[5] "sample_uicc_stageIVB"         "sample_uicc_stageIVC"        
+[7] "sample_hpv16_dna_rnaDNA+RNA-" "sample_hpv16_dna_rnaDNA+RNA+"
+[9] "groupEarly_PFS_event"        
+[1] 222   9
+                   Symbol       logFC   AveExpr         t      P.Value
+AMIGO2             AMIGO2 -0.03549652  6.447111 -4.122937 5.345661e-05
+RNU6-1             RNU6-1  0.20746302  9.206895  4.046285 7.260555e-05
+OSBPL8             OSBPL8  0.13036840  8.358294  3.924701 1.169393e-04
+MIR106A           MIR106A  0.03863672  6.467729  3.904480 1.264493e-04
+IGF1R               IGF1R -0.06082070  6.450099 -3.860090 1.499634e-04
+MTHFD1             MTHFD1 -0.12764547  7.307747 -3.759309 2.196488e-04
+CTTN                 CTTN -0.33375585  8.630100 -3.731227 2.439555e-04
+BCAM                 BCAM -0.06047831  6.504099 -3.704614 2.693167e-04
+POLR2C             POLR2C -0.12446978  7.647100 -3.699224 2.747481e-04
+RAN                   RAN -0.12626661  9.709309 -3.684931 2.896547e-04
+CLSTN1             CLSTN1 -0.13002703  8.047777 -3.625222 3.605744e-04
+PSMD7               PSMD7 -0.16757476  9.209549 -3.568629 4.426263e-04
+ATP1A1             ATP1A1 -0.20358849 10.431637 -3.563906 4.502132e-04
+SSX5                 SSX5 -0.03770405  6.360971 -3.560213 4.562318e-04
+GOT2                 GOT2 -0.20293511 10.063885 -3.537471 4.949916e-04
+RNF216             RNF216  0.10952137  7.674667  3.509350 5.471965e-04
+LOC100130229 LOC100130229  0.21191521  7.297325  3.493739 5.783634e-04
+ZNF844             ZNF844  0.06976426  6.555880  3.488930 5.882931e-04
+KIAA0408         KIAA0408  0.06843998  6.858857  3.485351 5.957895e-04
+RNU6-15           RNU6-15  0.17932569  9.197591  3.477198 6.131971e-04
+             adj.P.Val           B
+AMIGO2       0.6283732  1.64189702
+RNU6-1       0.6283732  1.36068922
+OSBPL8       0.6283732  0.92390908
+MIR106A      0.6283732  0.85237834
+IGF1R        0.6283732  0.69647013
+MTHFD1       0.6283732  0.34824402
+CTTN         0.6283732  0.25264306
+BCAM         0.6283732  0.16262450
+POLR2C       0.6283732  0.14445965
+RAN          0.6283732  0.09640584
+CLSTN1       0.6283732 -0.10257062
+PSMD7        0.6283732 -0.28851905
+ATP1A1       0.6283732 -0.30391825
+SSX5         0.6283732 -0.31594913
+GOT2         0.6283732 -0.38979008
+RNF216       0.6283732 -0.48051598
+LOC100130229 0.6283732 -0.53060326
+ZNF844       0.6283732 -0.54599011
+KIAA0408     0.6283732 -0.55743362
+RNU6-15      0.6283732 -0.58345599
+Genes with BH-adjusted p < 0.05: 0 
+Genes with absolute log2 fold change > 1: 0 
+
+Corrected adjusted limma analysis completed successfully.
+Number of ranked genes: 22001 
+Number of Hallmark pathways: 50 
+Hallmark pathways tested: 50 
+Pathways with BH-adjusted p < 0.05: 23 
+Pathways with BH-adjusted p < 0.25: 31 
+
+Top corrected Hallmark results:
+                              pathway size       NES         pval         padj
+1                HALLMARK_E2F_TARGETS  181 -2.890905 4.971556e-24 2.485778e-22
+2             HALLMARK_MYC_TARGETS_V1  184 -2.734376 1.189507e-19 2.973767e-18
+3             HALLMARK_G2M_CHECKPOINT  175 -2.710011 6.937712e-19 1.156285e-17
+4        HALLMARK_ALLOGRAFT_REJECTION  178  2.399914 3.400685e-13 4.250857e-12
+5    HALLMARK_TNFA_SIGNALING_VIA_NFKB  191  2.186747 5.184337e-11 5.184337e-10
+6      HALLMARK_INFLAMMATORY_RESPONSE  189  2.188210 5.806658e-10 4.838881e-09
+7            HALLMARK_MITOTIC_SPINDLE  190 -2.064698 8.641214e-09 6.172296e-08
+8          HALLMARK_KRAS_SIGNALING_UP  184  2.080568 3.355743e-08 2.097339e-07
+9     HALLMARK_ESTROGEN_RESPONSE_LATE  188 -1.975605 1.238994e-07 6.883299e-07
+10            HALLMARK_MYC_TARGETS_V2   55 -2.262009 1.930918e-07 9.654589e-07
+11   HALLMARK_IL6_JAK_STAT3_SIGNALING   82  2.053748 1.117652e-05 4.377356e-05
+12                HALLMARK_DNA_REPAIR  137 -1.887602 1.027554e-05 4.377356e-05
+13       HALLMARK_IL2_STAT5_SIGNALING  183  1.822221 1.138112e-05 4.377356e-05
+14                HALLMARK_GLYCOLYSIS  185 -1.751521 4.411192e-05 1.575426e-04
+15                HALLMARK_COMPLEMENT  183  1.708462 1.175766e-04 3.919220e-04
+16   HALLMARK_ESTROGEN_RESPONSE_EARLY  179 -1.661695 2.968015e-04 9.275046e-04
+17 HALLMARK_UNFOLDED_PROTEIN_RESPONSE  104 -1.559284 4.733964e-03 1.392342e-02
+18 HALLMARK_INTERFERON_GAMMA_RESPONSE  192  1.400982 6.326699e-03 1.757416e-02
+19                HALLMARK_MYOGENESIS  187  1.398057 9.247434e-03 2.433535e-02
+20          HALLMARK_MTORC1_SIGNALING  189 -1.432571 1.032074e-02 2.457319e-02
+        enrichment_direction
+1  PFS-event-free at 2 years
+2  PFS-event-free at 2 years
+3  PFS-event-free at 2 years
+4   PFS event within 2 years
+5   PFS event within 2 years
+6   PFS event within 2 years
+7  PFS-event-free at 2 years
+8   PFS event within 2 years
+9  PFS-event-free at 2 years
+10 PFS-event-free at 2 years
+11  PFS event within 2 years
+12 PFS-event-free at 2 years
+13  PFS event within 2 years
+14 PFS-event-free at 2 years
+15  PFS event within 2 years
+16 PFS-event-free at 2 years
+17 PFS-event-free at 2 years
+18  PFS event within 2 years
+19  PFS event within 2 years
+20 PFS-event-free at 2 years
+
+Top pathways enriched toward early PFS events:
+                              pathway size      NES         pval         padj
+1        HALLMARK_ALLOGRAFT_REJECTION  178 2.399914 3.400685e-13 4.250857e-12
+2    HALLMARK_TNFA_SIGNALING_VIA_NFKB  191 2.186747 5.184337e-11 5.184337e-10
+3      HALLMARK_INFLAMMATORY_RESPONSE  189 2.188210 5.806658e-10 4.838881e-09
+4          HALLMARK_KRAS_SIGNALING_UP  184 2.080568 3.355743e-08 2.097339e-07
+5    HALLMARK_IL6_JAK_STAT3_SIGNALING   82 2.053748 1.117652e-05 4.377356e-05
+6        HALLMARK_IL2_STAT5_SIGNALING  183 1.822221 1.138112e-05 4.377356e-05
+7                 HALLMARK_COMPLEMENT  183 1.708462 1.175766e-04 3.919220e-04
+8  HALLMARK_INTERFERON_GAMMA_RESPONSE  192 1.400982 6.326699e-03 1.757416e-02
+9                 HALLMARK_MYOGENESIS  187 1.398057 9.247434e-03 2.433535e-02
+10           HALLMARK_HEME_METABOLISM  173 1.344589 1.190312e-02 2.705253e-02
+
+Top pathways enriched toward PFS-event-free status:
+                              pathway size       NES         pval         padj
+1                HALLMARK_E2F_TARGETS  181 -2.890905 4.971556e-24 2.485778e-22
+2             HALLMARK_MYC_TARGETS_V1  184 -2.734376 1.189507e-19 2.973767e-18
+3             HALLMARK_G2M_CHECKPOINT  175 -2.710011 6.937712e-19 1.156285e-17
+4            HALLMARK_MITOTIC_SPINDLE  190 -2.064698 8.641214e-09 6.172296e-08
+5     HALLMARK_ESTROGEN_RESPONSE_LATE  188 -1.975605 1.238994e-07 6.883299e-07
+6             HALLMARK_MYC_TARGETS_V2   55 -2.262009 1.930918e-07 9.654589e-07
+7                 HALLMARK_DNA_REPAIR  137 -1.887602 1.027554e-05 4.377356e-05
+8                 HALLMARK_GLYCOLYSIS  185 -1.751521 4.411192e-05 1.575426e-04
+9    HALLMARK_ESTROGEN_RESPONSE_EARLY  179 -1.661695 2.968015e-04 9.275046e-04
+10 HALLMARK_UNFOLDED_PROTEIN_RESPONSE  104 -1.559284 4.733964e-03 1.392342e-02
+
+Corrected Hallmark enrichment completed successfully.
+Genes with valid non-zero SD: 22001 
+Genes excluded for zero/invalid SD: 0 
+Expression matrix dimensions: 22001 genes x 270 samples
+Genes retained for z-standardisation: 22001 
+Genes excluded because of zero or invalid variance: 0 
+                                                                              pathway
+HALLMARK_PANCREAS_BETA_CELLS                             HALLMARK_PANCREAS_BETA_CELLS
+HALLMARK_HEDGEHOG_SIGNALING                               HALLMARK_HEDGEHOG_SIGNALING
+HALLMARK_NOTCH_SIGNALING                                     HALLMARK_NOTCH_SIGNALING
+HALLMARK_ANGIOGENESIS                                           HALLMARK_ANGIOGENESIS
+HALLMARK_APICAL_SURFACE                                       HALLMARK_APICAL_SURFACE
+HALLMARK_WNT_BETA_CATENIN_SIGNALING               HALLMARK_WNT_BETA_CATENIN_SIGNALING
+HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY     HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY
+HALLMARK_TGF_BETA_SIGNALING                               HALLMARK_TGF_BETA_SIGNALING
+HALLMARK_MYC_TARGETS_V2                                       HALLMARK_MYC_TARGETS_V2
+HALLMARK_CHOLESTEROL_HOMEOSTASIS                     HALLMARK_CHOLESTEROL_HOMEOSTASIS
+HALLMARK_IL6_JAK_STAT3_SIGNALING                     HALLMARK_IL6_JAK_STAT3_SIGNALING
+HALLMARK_INTERFERON_ALPHA_RESPONSE                 HALLMARK_INTERFERON_ALPHA_RESPONSE
+HALLMARK_PEROXISOME                                               HALLMARK_PEROXISOME
+HALLMARK_PROTEIN_SECRETION                                 HALLMARK_PROTEIN_SECRETION
+HALLMARK_ANDROGEN_RESPONSE                                 HALLMARK_ANDROGEN_RESPONSE
+HALLMARK_BILE_ACID_METABOLISM                           HALLMARK_BILE_ACID_METABOLISM
+HALLMARK_PI3K_AKT_MTOR_SIGNALING                     HALLMARK_PI3K_AKT_MTOR_SIGNALING
+HALLMARK_SPERMATOGENESIS                                     HALLMARK_SPERMATOGENESIS
+HALLMARK_UNFOLDED_PROTEIN_RESPONSE                 HALLMARK_UNFOLDED_PROTEIN_RESPONSE
+HALLMARK_COAGULATION                                             HALLMARK_COAGULATION
+HALLMARK_UV_RESPONSE_DN                                       HALLMARK_UV_RESPONSE_DN
+HALLMARK_DNA_REPAIR                                               HALLMARK_DNA_REPAIR
+HALLMARK_FATTY_ACID_METABOLISM                         HALLMARK_FATTY_ACID_METABOLISM
+HALLMARK_KRAS_SIGNALING_DN                                 HALLMARK_KRAS_SIGNALING_DN
+HALLMARK_UV_RESPONSE_UP                                       HALLMARK_UV_RESPONSE_UP
+HALLMARK_APOPTOSIS                                                 HALLMARK_APOPTOSIS
+HALLMARK_HEME_METABOLISM                                     HALLMARK_HEME_METABOLISM
+HALLMARK_G2M_CHECKPOINT                                       HALLMARK_G2M_CHECKPOINT
+HALLMARK_OXIDATIVE_PHOSPHORYLATION                 HALLMARK_OXIDATIVE_PHOSPHORYLATION
+HALLMARK_ALLOGRAFT_REJECTION                             HALLMARK_ALLOGRAFT_REJECTION
+HALLMARK_ESTROGEN_RESPONSE_EARLY                     HALLMARK_ESTROGEN_RESPONSE_EARLY
+HALLMARK_HYPOXIA                                                     HALLMARK_HYPOXIA
+HALLMARK_ADIPOGENESIS                                           HALLMARK_ADIPOGENESIS
+HALLMARK_E2F_TARGETS                                             HALLMARK_E2F_TARGETS
+HALLMARK_XENOBIOTIC_METABOLISM                         HALLMARK_XENOBIOTIC_METABOLISM
+HALLMARK_APICAL_JUNCTION                                     HALLMARK_APICAL_JUNCTION
+HALLMARK_COMPLEMENT                                               HALLMARK_COMPLEMENT
+HALLMARK_IL2_STAT5_SIGNALING                             HALLMARK_IL2_STAT5_SIGNALING
+HALLMARK_KRAS_SIGNALING_UP                                 HALLMARK_KRAS_SIGNALING_UP
+HALLMARK_MYC_TARGETS_V1                                       HALLMARK_MYC_TARGETS_V1
+HALLMARK_GLYCOLYSIS                                               HALLMARK_GLYCOLYSIS
+HALLMARK_MYOGENESIS                                               HALLMARK_MYOGENESIS
+HALLMARK_ESTROGEN_RESPONSE_LATE                       HALLMARK_ESTROGEN_RESPONSE_LATE
+HALLMARK_P53_PATHWAY                                             HALLMARK_P53_PATHWAY
+HALLMARK_INFLAMMATORY_RESPONSE                         HALLMARK_INFLAMMATORY_RESPONSE
+HALLMARK_MTORC1_SIGNALING                                   HALLMARK_MTORC1_SIGNALING
+HALLMARK_MITOTIC_SPINDLE                                     HALLMARK_MITOTIC_SPINDLE
+HALLMARK_TNFA_SIGNALING_VIA_NFKB                     HALLMARK_TNFA_SIGNALING_VIA_NFKB
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
+HALLMARK_INTERFERON_GAMMA_RESPONSE                 HALLMARK_INTERFERON_GAMMA_RESPONSE
+                                           genes_in_msigdb genes_present
+HALLMARK_PANCREAS_BETA_CELLS                            40            28
+HALLMARK_HEDGEHOG_SIGNALING                             36            31
+HALLMARK_NOTCH_SIGNALING                                32            31
+HALLMARK_ANGIOGENESIS                                   36            33
+HALLMARK_APICAL_SURFACE                                 44            39
+HALLMARK_WNT_BETA_CATENIN_SIGNALING                     42            41
+HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY                49            42
+HALLMARK_TGF_BETA_SIGNALING                             54            50
+HALLMARK_MYC_TARGETS_V2                                 58            55
+HALLMARK_CHOLESTEROL_HOMEOSTASIS                        74            70
+HALLMARK_IL6_JAK_STAT3_SIGNALING                        87            82
+HALLMARK_INTERFERON_ALPHA_RESPONSE                      97            91
+HALLMARK_PEROXISOME                                    104            95
+HALLMARK_PROTEIN_SECRETION                              96            95
+HALLMARK_ANDROGEN_RESPONSE                             101            96
+HALLMARK_BILE_ACID_METABOLISM                          112            98
+HALLMARK_PI3K_AKT_MTOR_SIGNALING                       105           100
+HALLMARK_SPERMATOGENESIS                               135           101
+HALLMARK_UNFOLDED_PROTEIN_RESPONSE                     113           104
+HALLMARK_COAGULATION                                   138           117
+HALLMARK_UV_RESPONSE_DN                                144           130
+HALLMARK_DNA_REPAIR                                    150           137
+HALLMARK_FATTY_ACID_METABOLISM                         158           145
+HALLMARK_KRAS_SIGNALING_DN                             200           152
+HALLMARK_UV_RESPONSE_UP                                158           152
+HALLMARK_APOPTOSIS                                     161           155
+HALLMARK_HEME_METABOLISM                               200           173
+HALLMARK_G2M_CHECKPOINT                                200           175
+HALLMARK_OXIDATIVE_PHOSPHORYLATION                     200           176
+HALLMARK_ALLOGRAFT_REJECTION                           200           178
+HALLMARK_ESTROGEN_RESPONSE_EARLY                       200           179
+HALLMARK_HYPOXIA                                       200           180
+HALLMARK_ADIPOGENESIS                                  200           181
+HALLMARK_E2F_TARGETS                                   200           181
+HALLMARK_XENOBIOTIC_METABOLISM                         200           181
+HALLMARK_APICAL_JUNCTION                               200           183
+HALLMARK_COMPLEMENT                                    200           183
+HALLMARK_IL2_STAT5_SIGNALING                           199           183
+HALLMARK_KRAS_SIGNALING_UP                             200           184
+HALLMARK_MYC_TARGETS_V1                                200           184
+HALLMARK_GLYCOLYSIS                                    200           185
+HALLMARK_MYOGENESIS                                    200           187
+HALLMARK_ESTROGEN_RESPONSE_LATE                        200           188
+HALLMARK_P53_PATHWAY                                   200           188
+HALLMARK_INFLAMMATORY_RESPONSE                         200           189
+HALLMARK_MTORC1_SIGNALING                              200           189
+HALLMARK_MITOTIC_SPINDLE                               199           190
+HALLMARK_TNFA_SIGNALING_VIA_NFKB                       200           191
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION             200           192
+HALLMARK_INTERFERON_GAMMA_RESPONSE                     200           192
+                                           coverage_percent
+HALLMARK_PANCREAS_BETA_CELLS                       70.00000
+HALLMARK_HEDGEHOG_SIGNALING                        86.11111
+HALLMARK_NOTCH_SIGNALING                           96.87500
+HALLMARK_ANGIOGENESIS                              91.66667
+HALLMARK_APICAL_SURFACE                            88.63636
+HALLMARK_WNT_BETA_CATENIN_SIGNALING                97.61905
+HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY           85.71429
+HALLMARK_TGF_BETA_SIGNALING                        92.59259
+HALLMARK_MYC_TARGETS_V2                            94.82759
+HALLMARK_CHOLESTEROL_HOMEOSTASIS                   94.59459
+HALLMARK_IL6_JAK_STAT3_SIGNALING                   94.25287
+HALLMARK_INTERFERON_ALPHA_RESPONSE                 93.81443
+HALLMARK_PEROXISOME                                91.34615
+HALLMARK_PROTEIN_SECRETION                         98.95833
+HALLMARK_ANDROGEN_RESPONSE                         95.04950
+HALLMARK_BILE_ACID_METABOLISM                      87.50000
+HALLMARK_PI3K_AKT_MTOR_SIGNALING                   95.23810
+HALLMARK_SPERMATOGENESIS                           74.81481
+HALLMARK_UNFOLDED_PROTEIN_RESPONSE                 92.03540
+HALLMARK_COAGULATION                               84.78261
+HALLMARK_UV_RESPONSE_DN                            90.27778
+HALLMARK_DNA_REPAIR                                91.33333
+HALLMARK_FATTY_ACID_METABOLISM                     91.77215
+HALLMARK_KRAS_SIGNALING_DN                         76.00000
+HALLMARK_UV_RESPONSE_UP                            96.20253
+HALLMARK_APOPTOSIS                                 96.27329
+HALLMARK_HEME_METABOLISM                           86.50000
+HALLMARK_G2M_CHECKPOINT                            87.50000
+HALLMARK_OXIDATIVE_PHOSPHORYLATION                 88.00000
+HALLMARK_ALLOGRAFT_REJECTION                       89.00000
+HALLMARK_ESTROGEN_RESPONSE_EARLY                   89.50000
+HALLMARK_HYPOXIA                                   90.00000
+HALLMARK_ADIPOGENESIS                              90.50000
+HALLMARK_E2F_TARGETS                               90.50000
+HALLMARK_XENOBIOTIC_METABOLISM                     90.50000
+HALLMARK_APICAL_JUNCTION                           91.50000
+HALLMARK_COMPLEMENT                                91.50000
+HALLMARK_IL2_STAT5_SIGNALING                       91.95980
+HALLMARK_KRAS_SIGNALING_UP                         92.00000
+HALLMARK_MYC_TARGETS_V1                            92.00000
+HALLMARK_GLYCOLYSIS                                92.50000
+HALLMARK_MYOGENESIS                                93.50000
+HALLMARK_ESTROGEN_RESPONSE_LATE                    94.00000
+HALLMARK_P53_PATHWAY                               94.00000
+HALLMARK_INFLAMMATORY_RESPONSE                     94.50000
+HALLMARK_MTORC1_SIGNALING                          94.50000
+HALLMARK_MITOTIC_SPINDLE                           95.47739
+HALLMARK_TNFA_SIGNALING_VIA_NFKB                   95.50000
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION         96.00000
+HALLMARK_INTERFERON_GAMMA_RESPONSE                 96.00000
+Minimum pathway gene coverage: 28 
+Pathway score matrix dimensions: 270 samples x 50 pathways
+
+Pathways significant in unadjusted Wilcoxon analysis: 0 
+# A tibble: 15 × 7
+   pathway     median_early median_event_free median_difference p_value p_adj_BH
+   <chr>              <dbl>             <dbl>             <dbl>   <dbl>    <dbl>
+ 1 HALLMARK_M…     -0.0456            0.0397            -0.0854  0.0116    0.258
+ 2 HALLMARK_G…     -0.0435            0.0236            -0.0671  0.0152    0.258
+ 3 HALLMARK_A…     -0.0166            0.0283            -0.0449  0.0155    0.258
+ 4 HALLMARK_E…     -0.0418            0.0594            -0.101   0.0210    0.263
+ 5 HALLMARK_E…     -0.00172           0.0216            -0.0233  0.0268    0.265
+ 6 HALLMARK_D…     -0.0410            0.0169            -0.0579  0.0318    0.265
+ 7 HALLMARK_K…     -0.0150            0.00505           -0.0201  0.0612    0.364
+ 8 HALLMARK_M…     -0.0281            0.0527            -0.0809  0.0623    0.364
+ 9 HALLMARK_S…     -0.0404           -0.0169            -0.0235  0.0655    0.364
+10 HALLMARK_K…      0.00445          -0.0300             0.0344  0.0901    0.422
+11 HALLMARK_T…      0.0648           -0.0466             0.111   0.0959    0.422
+12 HALLMARK_M…     -0.0761           -0.113              0.0367  0.101     0.422
+13 HALLMARK_A…      0.0565           -0.0333             0.0898  0.160     0.596
+14 HALLMARK_H…      0.0184           -0.00949            0.0279  0.167     0.596
+15 HALLMARK_I…      0.00519          -0.0166             0.0218  0.185     0.616
+# ℹ 1 more variable: score_direction <chr>
+
+Adjusted pathway-score model sample size per pathway: 222 
+
+Pathways significant after adjusted-model BH correction: 0 
+
+Top adjusted sample-level pathway results:
+# A tibble: 15 × 8
+   pathway                       n beta_early_vs_event_…¹ confidence_interval_…²
+   <chr>                     <int>                  <dbl>                  <dbl>
+ 1 HALLMARK_ESTROGEN_RESPON…   222                -0.0599               -0.0990 
+ 2 HALLMARK_MYC_TARGETS_V1     222                -0.128                -0.226  
+ 3 HALLMARK_DNA_REPAIR         222                -0.0680               -0.124  
+ 4 HALLMARK_GLYCOLYSIS         222                -0.0551               -0.101  
+ 5 HALLMARK_G2M_CHECKPOINT     222                -0.117                -0.220  
+ 6 HALLMARK_MITOTIC_SPINDLE    222                -0.0643               -0.123  
+ 7 HALLMARK_APICAL_SURFACE     222                -0.0456               -0.0890 
+ 8 HALLMARK_E2F_TARGETS        222                -0.129                -0.256  
+ 9 HALLMARK_ESTROGEN_RESPON…   222                -0.0398               -0.0793 
+10 HALLMARK_KRAS_SIGNALING_…   222                 0.0623               -0.00146
+11 HALLMARK_MYC_TARGETS_V2     222                -0.114                -0.236  
+12 HALLMARK_IL2_STAT5_SIGNA…   222                 0.0519               -0.00802
+13 HALLMARK_IL6_JAK_STAT3_S…   222                 0.0777               -0.0120 
+14 HALLMARK_INFLAMMATORY_RE…   222                 0.0715               -0.0176 
+15 HALLMARK_TNFA_SIGNALING_…   222                 0.0776               -0.0289 
+# ℹ abbreviated names: ¹​beta_early_vs_event_free, ²​confidence_interval_low
+# ℹ 4 more variables: confidence_interval_high <dbl>, p_value <dbl>,
+#   p_adj_BH <dbl>, score_direction <chr>
+
+All-50 Hallmark pathway scoring completed successfully.
+# A tibble: 8 × 7
+  pathway                          beta_early_vs_event_free
+  <chr>                                               <dbl>
+1 HALLMARK_MYC_TARGETS_V1                           -0.128 
+2 HALLMARK_G2M_CHECKPOINT                           -0.117 
+3 HALLMARK_E2F_TARGETS                              -0.129 
+4 HALLMARK_KRAS_SIGNALING_UP                         0.0623
+5 HALLMARK_IL6_JAK_STAT3_SIGNALING                   0.0777
+6 HALLMARK_INFLAMMATORY_RESPONSE                     0.0715
+7 HALLMARK_TNFA_SIGNALING_VIA_NFKB                   0.0776
+8 HALLMARK_ALLOGRAFT_REJECTION                       0.0893
+  confidence_interval_low confidence_interval_high p_value p_adj_BH
+                    <dbl>                    <dbl>   <dbl>    <dbl>
+1                -0.226                   -0.0309   0.0101    0.252
+2                -0.220                   -0.0134   0.0270    0.263
+3                -0.256                   -0.00313  0.0446    0.270
+4                -0.00146                  0.126    0.0554    0.277
+5                -0.0120                   0.167    0.0892    0.343
+6                -0.0176                   0.161    0.115     0.412
+7                -0.0289                   0.184    0.152     0.488
+8                -0.0344                   0.213    0.156     0.488
+  score_direction                
+  <chr>                          
+1 Higher in PFS-event-free group 
+2 Higher in PFS-event-free group 
+3 Higher in PFS-event-free group 
+4 Higher in early PFS-event group
+5 Higher in early PFS-event group
+6 Higher in early PFS-event group
+7 Higher in early PFS-event group
+8 Higher in early PFS-event group
+Total cohort samples: 270 
+Total PFS events: 133 
+
+Cox models fitted: 50 
+Pathways with raw Cox p < 0.05: 4 
+Pathways with BH-adjusted Cox p < 0.05: 0 
+Pathway-score PH tests with p < 0.05: 11 
+Models with global PH-test p < 0.05: 0 
+
+Top adjusted Cox results:
+# A tibble: 15 × 10
+   pathway                              n events hazard_ratio
+   <chr>                            <int>  <int>        <dbl>
+ 1 HALLMARK_ESTROGEN_RESPONSE_LATE    250    120        0.772
+ 2 HALLMARK_MYC_TARGETS_V1            250    120        0.820
+ 3 HALLMARK_FATTY_ACID_METABOLISM     250    120        0.820
+ 4 HALLMARK_APICAL_SURFACE            250    120        0.827
+ 5 HALLMARK_XENOBIOTIC_METABOLISM     250    120        0.842
+ 6 HALLMARK_GLYCOLYSIS                250    120        0.856
+ 7 HALLMARK_G2M_CHECKPOINT            250    120        0.854
+ 8 HALLMARK_MITOTIC_SPINDLE           250    120        0.867
+ 9 HALLMARK_DNA_REPAIR                250    120        0.856
+10 HALLMARK_E2F_TARGETS               250    120        0.857
+11 HALLMARK_ESTROGEN_RESPONSE_EARLY   250    120        0.868
+12 HALLMARK_KRAS_SIGNALING_UP         250    120        1.15 
+13 HALLMARK_PEROXISOME                250    120        0.865
+14 HALLMARK_PROTEIN_SECRETION         250    120        0.873
+15 HALLMARK_SPERMATOGENESIS           250    120        0.869
+   confidence_interval_low confidence_interval_high p_value p_adj_BH
+                     <dbl>                    <dbl>   <dbl>    <dbl>
+ 1                   0.647                    0.920 0.00381    0.190
+ 2                   0.684                    0.982 0.0311     0.559
+ 3                   0.675                    0.997 0.0465     0.559
+ 4                   0.686                    0.998 0.0475     0.559
+ 5                   0.704                    1.01  0.0585     0.559
+ 6                   0.716                    1.02  0.0884     0.559
+ 7                   0.705                    1.03  0.107      0.559
+ 8                   0.725                    1.04  0.118      0.559
+ 9                   0.703                    1.04  0.120      0.559
+10                   0.702                    1.05  0.127      0.559
+11                   0.722                    1.04  0.128      0.559
+12                   0.958                    1.37  0.136      0.559
+13                   0.712                    1.05  0.145      0.559
+14                   0.715                    1.07  0.182      0.611
+15                   0.699                    1.08  0.206      0.611
+   pathway_PH_p global_PH_p
+          <dbl>       <dbl>
+ 1       0.858        0.704
+ 2       0.0576       0.333
+ 3       0.208        0.517
+ 4       0.0388       0.283
+ 5       0.807        0.587
+ 6       0.344        0.643
+ 7       0.0489       0.340
+ 8       0.403        0.566
+ 9       0.162        0.538
+10       0.0216       0.299
+11       0.869        0.668
+12       0.0225       0.226
+13       0.176        0.523
+14       0.710        0.665
+15       0.113        0.538
+
+All-50 adjusted Cox analysis completed successfully.
+
+CORRECTED TWO-YEAR PFS GROUPS
+
+PFS-event-free at 2 years  PFS event within 2 years   Censored before 2 years 
+                      135                       106                        29 
+Total cohort: 270 
+Total PFS events: 133 
+
+GENE-LEVEL ANALYSIS
+Genes tested: 22001 
+Unadjusted genes at BH FDR < 0.05: 0 
+Adjusted genes at BH FDR < 0.05: 0 
+
+HALLMARK FGSEA
+Pathways tested: 50 
+Pathways at BH FDR < 0.05: 23 
+Pathways at BH FDR < 0.25: 31 
+
+SAMPLE-LEVEL PATHWAY SCORES
+Adjusted pathways at raw p < 0.05: 9 
+Adjusted pathways at BH FDR < 0.05: 0 
+
+ADJUSTED COX MODELS
+Models fitted: 50 
+Complete-case sample size: 250 
+Complete-case PFS events: 120 
+Pathways at raw p < 0.05: 4 
+Pathways at BH FDR < 0.05: 0 
+
+PATHWAY-SPECIFIC PH FLAGS
+# A tibble: 11 × 7
+   pathway                                    hazard_ratio p_value p_adj_BH
+   <chr>                                             <dbl>   <dbl>    <dbl>
+ 1 HALLMARK_APICAL_JUNCTION                          0.921  0.420     0.724
+ 2 HALLMARK_ANGIOGENESIS                             1.08   0.480     0.724
+ 3 HALLMARK_COAGULATION                              1.01   0.909     0.956
+ 4 HALLMARK_MYOGENESIS                               1.01   0.952     0.966
+ 5 HALLMARK_HYPOXIA                                  1.05   0.596     0.784
+ 6 HALLMARK_HEDGEHOG_SIGNALING                       0.927  0.457     0.724
+ 7 HALLMARK_E2F_TARGETS                              0.857  0.127     0.559
+ 8 HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION        1.05   0.631     0.809
+ 9 HALLMARK_KRAS_SIGNALING_UP                        1.15   0.136     0.559
+10 HALLMARK_APICAL_SURFACE                           0.827  0.0475    0.559
+11 HALLMARK_G2M_CHECKPOINT                           0.854  0.107     0.559
+   pathway_PH_p pathway_PH_q_BH global_PH_p
+          <dbl>           <dbl>       <dbl>
+ 1      0.00423           0.102       0.175
+ 2      0.00571           0.102       0.165
+ 3      0.0100            0.102       0.203
+ 4      0.0103            0.102       0.234
+ 5      0.0112            0.102       0.227
+ 6      0.0123            0.102       0.177
+ 7      0.0216            0.125       0.299
+ 8      0.0218            0.125       0.289
+ 9      0.0225            0.125       0.226
+10      0.0388            0.194       0.283
+11      0.0489            0.207       0.340
+
+Pipeline audit completed successfully.
+
+Attaching package: ‘flextable’
+
+The following object is masked from ‘package:gtsummary’:
+
+    continuous_summary
+
+
+TABLE 1 GROUP COUNTS
+
+PFS-event-free at 2 years  PFS event within 2 years 
+                      135                       106 
+
+Total Table 1 sample size: 241 
+
+CATEGORICAL VARIABLE LEVELS
+
+sample_gender
+
+  F   M 
+ 41 200 
+
+sample_smoking
+
+ No Yes 
+ 42 199 
+
+sample_alcohol
+
+     >60  1 to 30 31 to 60       no 
+      87       73       54       27 
+
+sample_tumour_type
+
+  Primary   Relapse Secondary 
+      224         3        14 
+
+sample_tumour_site
+
+ Cavum Oris Hypopharynx      Larynx  Oropharynx        <NA> 
+         74          30          41          93           3 
+
+sample_uicc_stage
+
+  I  II III IVA IVB IVC 
+ 16  30  35 138  15   7 
+
+sample_t_category
+
+ T1  T2  T3 T4a T4b 
+ 31  69  56  79   6 
+
+sample_n_category
+
+ N0  N1 N2a N2b N2c  N3 
+ 82  29  10  60  48  12 
+
+sample_distant_metastasis
+
+  0   1 
+234   7 
+
+sample_treatment
+
+      mono      multi palliative 
+        68        172          1 
+
+sample_hpv16_dna_rna
+
+    DNA- DNA+RNA- DNA+RNA+     <NA> 
+     176       16       30       19 
+
+Table 1 completed successfully.
+Saved Word table: tables_v2/Table1_cohort_characteristics.docx
+Saved analysis dataset: tables_v2/Table1_landmark_analysis_dataset.csv
+
+Table 1 completed successfully.
+Saved Word table: tables_v2/Table1_cohort_characteristics.docx
+Saved analysis dataset: tables_v2/Table1_landmark_analysis_dataset.csv
+                    Pathway Ranked enrichment\nNES (BH q)
+1               E2F targets                -2.89 (<0.001)
+2            MYC targets V1                -2.73 (<0.001)
+3            G2M checkpoint                -2.71 (<0.001)
+4       Allograft rejection                 2.40 (<0.001)
+5 TNFα signalling via NF-κB                 2.19 (<0.001)
+6     Inflammatory response                 2.19 (<0.001)
+7        KRAS signalling up                 2.08 (<0.001)
+8  IL6–JAK–STAT3 signalling                 2.05 (<0.001)
+  Adjusted score estimate\n(95% CI; BH q) Adjusted Cox HR\n(95% CI; BH q)  PH p
+1        -0.129 (-0.256 to -0.003); 0.270      0.86 (0.70 to 1.05); 0.559 0.022
+2        -0.128 (-0.226 to -0.031); 0.252      0.82 (0.68 to 0.98); 0.559 0.058
+3        -0.117 (-0.220 to -0.013); 0.263      0.85 (0.71 to 1.03); 0.559 0.049
+4          0.089 (-0.034 to 0.213); 0.488      1.09 (0.90 to 1.31); 0.724 0.819
+5          0.078 (-0.029 to 0.184); 0.488      1.10 (0.92 to 1.31); 0.611 0.058
+6          0.071 (-0.018 to 0.161); 0.412      1.11 (0.93 to 1.32); 0.611 0.085
+7          0.062 (-0.001 to 0.126); 0.277      1.15 (0.96 to 1.37); 0.559 0.022
+8          0.078 (-0.012 to 0.167); 0.343      1.10 (0.93 to 1.31); 0.611 0.122
+
+Table 2 completed successfully.
+Saved: tables_v2/Table2_integrated_pathway_summary.docx
+Genes plotted: 22001 
+Genes at BH q < 0.05: 0 
+Genes with |log2FC| > 1: 0 
+         Symbol       logFC      P.Value adj.P.Val
+AMIGO2   AMIGO2 -0.03549652 5.345661e-05 0.6283732
+RNU6-1   RNU6-1  0.20746302 7.260555e-05 0.6283732
+OSBPL8   OSBPL8  0.13036840 1.169393e-04 0.6283732
+MIR106A MIR106A  0.03863672 1.264493e-04 0.6283732
+IGF1R     IGF1R -0.06082070 1.499634e-04 0.6283732
+MTHFD1   MTHFD1 -0.12764547 2.196488e-04 0.6283732
+
+Adjusted volcano plot completed successfully.
+Hallmark pathways displayed: 23 
+Negative NES pathways: 13 
+Positive NES pathways: 10 
+# A tibble: 23 × 4
+   pathway_label                        NES     padj direction                  
+   <chr>                              <dbl>    <dbl> <chr>                      
+ 1 E2F targets                        -2.89 2.49e-22 PFS-event-free at two years
+ 2 MYC targets V1                     -2.73 2.97e-18 PFS-event-free at two years
+ 3 G2M checkpoint                     -2.71 1.16e-17 PFS-event-free at two years
+ 4 MYC targets V2                     -2.26 9.65e- 7 PFS-event-free at two years
+ 5 Mitotic Spindle                    -2.06 6.17e- 8 PFS-event-free at two years
+ 6 Estrogen Response Late             -1.98 6.88e- 7 PFS-event-free at two years
+ 7 DNA Repair                         -1.89 4.38e- 5 PFS-event-free at two years
+ 8 Glycolysis                         -1.75 1.58e- 4 PFS-event-free at two years
+ 9 Estrogen Response Early            -1.66 9.28e- 4 PFS-event-free at two years
+10 Unfolded Protein Response          -1.56 1.39e- 2 PFS-event-free at two years
+11 Protein Secretion                  -1.44 3.03e- 2 PFS-event-free at two years
+12 mTORC1 Signaling                   -1.43 2.46e- 2 PFS-event-free at two years
+13 Oxidative Phosphorylation          -1.41 2.46e- 2 PFS-event-free at two years
+14 Heme Metabolism                     1.34 2.71e- 2 PFS event within two years 
+15 Myogenesis                          1.40 2.43e- 2 PFS event within two years 
+16 Interferon gamma response           1.40 1.76e- 2 PFS event within two years 
+17 Complement                          1.71 3.92e- 4 PFS event within two years 
+18 IL2-STAT5 signalling                1.82 4.38e- 5 PFS event within two years 
+19 IL6-JAK-STAT3 signalling            2.05 4.38e- 5 PFS event within two years 
+20 KRAS signalling up                  2.08 2.10e- 7 PFS event within two years 
+21 TNF-alpha signalling via NF-kappaB  2.19 5.18e-10 PFS event within two years 
+22 Inflammatory Response               2.19 4.84e- 9 PFS event within two years 
+23 Allograft Rejection                 2.40 4.25e-12 PFS event within two years 
+
+Hallmark enrichment figure completed successfully.
+Unique patients plotted: 222 
+Pathways plotted: 6 
+group
+PFS-event-free\nat 2 years  PFS event\nwithin 2 years 
+                       125                         97 
+
+Sample-level pathway-score figure completed successfully.
+Created: supplementary_tables/Supplementary_Table_S1_all50_fgsea.docx
+Created: supplementary_tables/Supplementary_Table_S2_all50_pathway_scores.docx
+Using Cox input: results_v2/GSE65858_v2_hallmark_cox_adjusted_all50.csv
+Created: supplementary_tables/Supplementary_Table_S3_all50_cox.docx
+
+--- Running scripts/14_supplementary_table_S1_fgsea.R ---
+Created: supplementary_tables/Supplementary_Table_S1_all50_fgsea.docx
+
+--- Running scripts/15_supplementary_table_S2_pathway_scores.R ---
+Created: supplementary_tables/Supplementary_Table_S2_all50_pathway_scores.docx
+
+--- Running scripts/16_supplementary_table_S3_cox.R ---
+Using Cox input: results_v2/GSE65858_v2_hallmark_cox_adjusted_all50.csv
+Created: supplementary_tables/Supplementary_Table_S3_all50_cox.docx
+
+All supplementary-table scripts completed. Check the supplementary_tables folder.
+                                                        metric    value
+1                                             significant sets   23.000
+2                 leading-edge gene incidences (sum over sets) 1533.000
+3                                    unique leading-edge genes 1128.000
+4                              mean incidences per unique gene    1.360
+5                                            genes in >=3 sets   89.000
+6                                            genes in >=5 sets    8.000
+7            median pairwise Jaccard, leading edge (all pairs)    0.000
+8       median pairwise Jaccard, leading edge (same direction)    0.017
+9  median pairwise Jaccard, leading edge (opposite directions)    0.000
+10                           number of clusters at cut h = 0.8   21.000
+   cluster n_sets  directions union_leading_edge_genes
+1        1      2  event-free                      157
+2        2      2  event-free                       91
+3        3      1  event-free                       99
+4        4      1  event-free                       40
+5        5      1  event-free                       80
+6        6      1  event-free                       51
+7        7      1  event-free                       71
+8        8      1  event-free                       23
+9        9      1  event-free                       29
+10      10      1  event-free                       59
+11      11      1  event-free                       64
+12      12      1 early-event                       46
+13      13      1 early-event                       94
+14      14      1 early-event                       48
+15      15      1 early-event                       63
+16      16      1 early-event                       72
+17      17      1 early-event                       35
+18      18      1 early-event                       75
+19      19      1 early-event                      100
+20      20      1 early-event                       92
+21      21      1 early-event                       78
+   mean_within_cluster_jaccard
+1                        0.255
+2                        0.286
+3                           NA
+4                           NA
+5                           NA
+6                           NA
+7                           NA
+8                           NA
+9                           NA
+10                          NA
+11                          NA
+12                          NA
+13                          NA
+14                          NA
+15                          NA
+16                          NA
+17                          NA
+18                          NA
+19                          NA
+20                          NA
+21                          NA
+                       set_a                   set_b jaccard_leading_edge
+1     Estrogen Response Late Estrogen Response Early                0.286
+2                E2f Targets          G2m Checkpoint                0.255
+3    Tnfa Signaling via Nfkb   Inflammatory Response                0.171
+4             G2m Checkpoint         Mitotic Spindle                0.159
+5  Interferon Gamma Response     Allograft Rejection                0.145
+6                E2f Targets          Myc Targets V1                0.123
+7    Il6 Jak Stat3 Signaling   Inflammatory Response                0.114
+8  Interferon Gamma Response   Inflammatory Response                0.111
+9    Il6 Jak Stat3 Signaling     Allograft Rejection                0.108
+10     Inflammatory Response     Allograft Rejection                0.097
+   shared_genes jaccard_full_set same_direction
+1            26            0.338           TRUE
+2            40            0.223           TRUE
+3            28            0.146           TRUE
+4            24            0.108           TRUE
+5            16            0.102           TRUE
+6            22            0.096           TRUE
+7            13            0.087           TRUE
+8            14            0.102           TRUE
+9            11            0.083           TRUE
+10           15            0.102           TRUE
+    gene n_sets
+1    IL6      6
+2  AURKA      5
+3   IL4R      5
+4    LIF      5
+5    MYC      5
+6  NOLC1      5
+7   PLK1      5
+8 SLC7A5      5
+                                                                                                                                 sets
+1 Interferon Gamma Response; Complement; Il6 Jak Stat3 Signaling; Tnfa Signaling via Nfkb; Inflammatory Response; Allograft Rejection
+2                                                          E2f Targets; G2m Checkpoint; Mitotic Spindle; Glycolysis; Mtorc1 Signaling
+3                 Interferon Gamma Response; Il2 Stat5 Signaling; Il6 Jak Stat3 Signaling; Inflammatory Response; Allograft Rejection
+4                         Il2 Stat5 Signaling; Kras Signaling Up; Tnfa Signaling via Nfkb; Inflammatory Response; Allograft Rejection
+5                                                E2f Targets; Myc Targets V1; G2m Checkpoint; Myc Targets V2; Estrogen Response Early
+6                                              E2f Targets; Myc Targets V1; G2m Checkpoint; Myc Targets V2; Unfolded Protein Response
+7                                                      E2f Targets; G2m Checkpoint; Myc Targets V2; Mitotic Spindle; Mtorc1 Signaling
+8                        G2m Checkpoint; Estrogen Response Late; Estrogen Response Early; Unfolded Protein Response; Mtorc1 Signaling
+median Jaccard, full Hallmark sets (same 23): 0.008 
+
+Done. Outputs in /Users/lloydferguson/Documents/Desktop/Uni - Medicine/MD4002S/PLOS ONE manuscript/reproducibility/_run3/results_v2/leading_edge 
+22,001 genes ranked                                                    OK
+no gene with BH q < 0.05 (adjusted)                                    OK
+largest |log2FC| below 1                                               OK
+smallest q = 0.628 (AMIGO2)                                            OK
+23 Hallmark sets with q < 0.05                                         OK
+13 negative and 10 positive NES among significant                      OK
+E2F Targets NES = -2.89                                                OK
+MYC Targets V1 NES = -2.73                                             OK
+Allograft Rejection NES = 2.40                                         OK
+adjusted score models: n = 222                                         OK
+adjusted score models: 9 nominal, none with q < 0.05                   OK
+Cox: 250 patients, 120 events                                          OK
+Cox: 4 nominal, none with q < 0.05                                     OK
+Cox: pathway-specific PH p < 0.05 in 11 models, no global test < 0.05  OK
+leading edge: 23 sets, 1,533 entries, 1,128 unique genes               OK
+leading edge: 21 clusters at cut height 0.8                            OK
+
+All headline checks passed.
+Warning messages:
+1: package ‘flextable’ was built under R version 4.6.1 
+2: package ‘officer’ was built under R version 4.6.1 
+3: Vectorized input to `element_text()` is not officially supported.
+ℹ Results may be unexpected or may change in future versions of ggplot2. 
+4: Vectorized input to `element_text()` is not officially supported.
+ℹ Results may be unexpected or may change in future versions of ggplot2. 
+Rscript -e 'source("scripts/00_run_complete_pipeline.R")'  63.37s user 1.96s system 100% cpu 1:05.31 total

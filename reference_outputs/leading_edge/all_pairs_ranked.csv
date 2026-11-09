@@ -1,0 +1,254 @@
+"set_a","set_b","jaccard_leading_edge","shared_genes","jaccard_full_set","same_direction"
+"Estrogen Response Late","Estrogen Response Early",0.286,26,0.338,TRUE
+"E2f Targets","G2m Checkpoint",0.255,40,0.223,TRUE
+"Tnfa Signaling via Nfkb","Inflammatory Response",0.171,28,0.146,TRUE
+"G2m Checkpoint","Mitotic Spindle",0.159,24,0.108,TRUE
+"Interferon Gamma Response","Allograft Rejection",0.145,16,0.102,TRUE
+"E2f Targets","Myc Targets V1",0.123,22,0.096,TRUE
+"Il6 Jak Stat3 Signaling","Inflammatory Response",0.114,13,0.087,TRUE
+"Interferon Gamma Response","Inflammatory Response",0.111,14,0.102,TRUE
+"Il6 Jak Stat3 Signaling","Allograft Rejection",0.108,11,0.083,TRUE
+"Inflammatory Response","Allograft Rejection",0.097,15,0.102,TRUE
+"Myc Targets V1","G2m Checkpoint",0.09,16,0.078,TRUE
+"Il2 Stat5 Signaling","Inflammatory Response",0.086,13,0.053,TRUE
+"Il2 Stat5 Signaling","Tnfa Signaling via Nfkb",0.082,13,0.056,TRUE
+"Il2 Stat5 Signaling","Il6 Jak Stat3 Signaling",0.081,8,0.059,TRUE
+"Interferon Gamma Response","Tnfa Signaling via Nfkb",0.08,11,0.072,TRUE
+"E2f Targets","Dna Repair",0.077,11,0.045,TRUE
+"Complement","Inflammatory Response",0.076,11,0.055,TRUE
+"E2f Targets","Mitotic Spindle",0.071,12,0.05,TRUE
+"E2f Targets","Myc Targets V2",0.068,9,0.049,TRUE
+"Il2 Stat5 Signaling","Kras Signaling Up",0.065,9,0.045,TRUE
+"Interferon Gamma Response","Il6 Jak Stat3 Signaling",0.064,5,0.083,TRUE
+"Il2 Stat5 Signaling","Allograft Rejection",0.064,9,0.045,TRUE
+"Il6 Jak Stat3 Signaling","Tnfa Signaling via Nfkb",0.063,8,0.067,TRUE
+"Interferon Gamma Response","Il2 Stat5 Signaling",0.062,7,0.05,TRUE
+"Myc Targets V1","Myc Targets V2",0.061,8,0.075,TRUE
+"Kras Signaling Up","Tnfa Signaling via Nfkb",0.061,10,0.061,TRUE
+"Complement","Allograft Rejection",0.06,8,0.039,TRUE
+"Glycolysis","Mtorc1 Signaling",0.057,7,0.072,TRUE
+"Tnfa Signaling via Nfkb","Allograft Rejection",0.053,9,0.05,TRUE
+"E2f Targets","Mtorc1 Signaling",0.052,8,0.036,TRUE
+"Kras Signaling Up","Inflammatory Response",0.05,8,0.042,TRUE
+"G2m Checkpoint","Mtorc1 Signaling",0.048,7,0.023,TRUE
+"Il6 Jak Stat3 Signaling","Kras Signaling Up",0.048,5,0.025,TRUE
+"Kras Signaling Up","Allograft Rejection",0.048,7,0.034,TRUE
+"Myc Targets V1","Dna Repair",0.042,6,0.023,TRUE
+"Estrogen Response Late","Mtorc1 Signaling",0.042,5,0.028,TRUE
+"G2m Checkpoint","Estrogen Response Late",0.039,6,0.02,TRUE
+"Myc Targets V1","Mtorc1 Signaling",0.039,6,0.05,TRUE
+"G2m Checkpoint","Myc Targets V2",0.038,5,0.024,TRUE
+"Estrogen Response Early","Mtorc1 Signaling",0.038,4,0.026,TRUE
+"Unfolded Protein Response","Mtorc1 Signaling",0.038,3,0.057,TRUE
+"G2m Checkpoint","Unfolded Protein Response",0.035,4,0.02,TRUE
+"Interferon Gamma Response","Kras Signaling Up",0.034,4,0.026,TRUE
+"Myc Targets V2","Unfolded Protein Response",0.033,2,0.03,TRUE
+"Myc Targets V1","Oxidative Phosphorylation",0.032,5,0.028,TRUE
+"Complement","Il6 Jak Stat3 Signaling",0.032,3,0.025,TRUE
+"Complement","Tnfa Signaling via Nfkb",0.032,5,0.042,TRUE
+"Myc Targets V2","Mtorc1 Signaling",0.031,3,0.036,TRUE
+"Glycolysis","Oxidative Phosphorylation",0.031,4,0.02,TRUE
+"Mitotic Spindle","Mtorc1 Signaling",0.03,4,0.01,TRUE
+"Estrogen Response Early","Unfolded Protein Response",0.028,2,0.016,TRUE
+"Interferon Gamma Response","Complement",0.028,3,0.061,TRUE
+"Glycolysis","Estrogen Response Early",0.025,3,0.02,TRUE
+"E2f Targets","Estrogen Response Late",0.024,4,0.01,TRUE
+"Estrogen Response Late","Unfolded Protein Response",0.023,2,0.013,TRUE
+"Estrogen Response Late","Glycolysis",0.022,3,0.02,TRUE
+"Myc Targets V2","Estrogen Response Early",0.022,2,0.012,TRUE
+"G2m Checkpoint","Estrogen Response Early",0.021,3,0.008,TRUE
+"Mitotic Spindle","Unfolded Protein Response",0.02,2,0.006,TRUE
+"Unfolded Protein Response","Protein Secretion",0.02,1,0.01,TRUE
+"Myc Targets V2","Estrogen Response Late",0.019,2,0.012,TRUE
+"Myc Targets V1","Unfolded Protein Response",0.017,2,0.033,TRUE
+"E2f Targets","Unfolded Protein Response",0.016,2,0.02,TRUE
+"Complement","Kras Signaling Up",0.015,2,0.026,TRUE
+"Heme Metabolism","Inflammatory Response",0.015,2,0.008,TRUE
+"Mitotic Spindle","Estrogen Response Late",0.014,2,0.01,TRUE
+"Mitotic Spindle","Oxidative Phosphorylation",0.014,2,0.005,TRUE
+"Heme Metabolism","Tnfa Signaling via Nfkb",0.014,2,0.005,TRUE
+"Estrogen Response Early","Protein Secretion",0.013,1,0.007,TRUE
+"G2m Checkpoint","Glycolysis",0.012,2,0.018,TRUE
+"Protein Secretion","Mtorc1 Signaling",0.011,1,0.017,TRUE
+"Glycolysis","Protein Secretion",0.01,1,0.017,TRUE
+"Myc Targets V2","Oxidative Phosphorylation",0.01,1,0.004,TRUE
+"Myc Targets V2","Glycolysis",0.009,1,0.004,TRUE
+"Mitotic Spindle","Protein Secretion",0.009,1,0.01,TRUE
+"Heme Metabolism","Complement",0.009,1,0.013,TRUE
+"Heme Metabolism","Il2 Stat5 Signaling",0.009,1,0.008,TRUE
+"Myc Targets V2","Mitotic Spindle",0.008,1,0.004,TRUE
+"Mitotic Spindle","Dna Repair",0.008,1,0.003,TRUE
+"Mitotic Spindle","Estrogen Response Early",0.008,1,0.008,TRUE
+"Mtorc1 Signaling","Oxidative Phosphorylation",0.008,1,0.018,TRUE
+"Heme Metabolism","Kras Signaling Up",0.008,1,0.008,TRUE
+"Heme Metabolism","Allograft Rejection",0.008,1,0.003,TRUE
+"G2m Checkpoint","Dna Repair",0.007,1,0.006,TRUE
+"Mitotic Spindle","Glycolysis",0.007,1,0.005,TRUE
+"E2f Targets","Estrogen Response Early",0.007,1,0.003,TRUE
+"Myc Targets V1","Estrogen Response Early",0.007,1,0.003,TRUE
+"Heme Metabolism","Myogenesis",0.007,1,0.008,TRUE
+"Complement","Il2 Stat5 Signaling",0.007,1,0.015,TRUE
+"Myc Targets V1","Mitotic Spindle",0.006,1,0.003,TRUE
+"Myc Targets V1","Estrogen Response Late",0.006,1,0.005,TRUE
+"E2f Targets","Glycolysis",0.006,1,0.018,TRUE
+"Myc Targets V1","Glycolysis",0.006,1,0.013,TRUE
+"Myogenesis","Il2 Stat5 Signaling",0.006,1,0.015,TRUE
+"Myogenesis","Kras Signaling Up",0.006,1,0.013,TRUE
+"Myogenesis","Allograft Rejection",0.006,1,0.005,TRUE
+"Myogenesis","Tnfa Signaling via Nfkb",0.005,1,0.013,TRUE
+"Myc Targets V2","Dna Repair",0,0,0,TRUE
+"Estrogen Response Late","Dna Repair",0,0,0.003,TRUE
+"Dna Repair","Glycolysis",0,0,0.003,TRUE
+"Dna Repair","Estrogen Response Early",0,0,0.003,TRUE
+"Dna Repair","Unfolded Protein Response",0,0,0,TRUE
+"Glycolysis","Unfolded Protein Response",0,0,0.02,TRUE
+"E2f Targets","Protein Secretion",0,0,0.007,TRUE
+"Myc Targets V1","Protein Secretion",0,0,0.003,TRUE
+"G2m Checkpoint","Protein Secretion",0,0,0,TRUE
+"Myc Targets V2","Protein Secretion",0,0,0,TRUE
+"Estrogen Response Late","Protein Secretion",0,0,0.003,TRUE
+"Dna Repair","Protein Secretion",0,0,0.008,TRUE
+"Dna Repair","Mtorc1 Signaling",0,0,0.009,TRUE
+"E2f Targets","Oxidative Phosphorylation",0,0,0,TRUE
+"G2m Checkpoint","Oxidative Phosphorylation",0,0,0,TRUE
+"Estrogen Response Late","Oxidative Phosphorylation",0,0,0.008,TRUE
+"Dna Repair","Oxidative Phosphorylation",0,0,0.012,TRUE
+"Estrogen Response Early","Oxidative Phosphorylation",0,0,0,TRUE
+"Unfolded Protein Response","Oxidative Phosphorylation",0,0,0.003,TRUE
+"Protein Secretion","Oxidative Phosphorylation",0,0,0.003,TRUE
+"E2f Targets","Heme Metabolism",0,0,0.003,FALSE
+"Myc Targets V1","Heme Metabolism",0,0,0.003,FALSE
+"G2m Checkpoint","Heme Metabolism",0,0,0.008,FALSE
+"Myc Targets V2","Heme Metabolism",0,0,0.004,FALSE
+"Mitotic Spindle","Heme Metabolism",0,0,0.008,FALSE
+"Estrogen Response Late","Heme Metabolism",0,0,0.005,FALSE
+"Dna Repair","Heme Metabolism",0,0,0.006,FALSE
+"Glycolysis","Heme Metabolism",0,0,0.015,FALSE
+"Estrogen Response Early","Heme Metabolism",0,0,0.01,FALSE
+"Unfolded Protein Response","Heme Metabolism",0,0,0.003,FALSE
+"Protein Secretion","Heme Metabolism",0,0,0.007,FALSE
+"Mtorc1 Signaling","Heme Metabolism",0,0,0.026,FALSE
+"Oxidative Phosphorylation","Heme Metabolism",0,0,0.013,FALSE
+"E2f Targets","Myogenesis",0,0,0.003,FALSE
+"Myc Targets V1","Myogenesis",0,0,0.003,FALSE
+"G2m Checkpoint","Myogenesis",0,0,0.005,FALSE
+"Myc Targets V2","Myogenesis",0,0,0,FALSE
+"Mitotic Spindle","Myogenesis",0,0,0.01,FALSE
+"Estrogen Response Late","Myogenesis",0,0,0.015,FALSE
+"Dna Repair","Myogenesis",0,0,0.003,FALSE
+"Glycolysis","Myogenesis",0,0,0.02,FALSE
+"Estrogen Response Early","Myogenesis",0,0,0.026,FALSE
+"Unfolded Protein Response","Myogenesis",0,0,0.006,FALSE
+"Protein Secretion","Myogenesis",0,0,0.003,FALSE
+"Mtorc1 Signaling","Myogenesis",0,0,0.013,FALSE
+"Oxidative Phosphorylation","Myogenesis",0,0,0.003,FALSE
+"E2f Targets","Interferon Gamma Response",0,0,0.005,FALSE
+"Myc Targets V1","Interferon Gamma Response",0,0,0.005,FALSE
+"G2m Checkpoint","Interferon Gamma Response",0,0,0.008,FALSE
+"Myc Targets V2","Interferon Gamma Response",0,0,0,FALSE
+"Mitotic Spindle","Interferon Gamma Response",0,0,0.003,FALSE
+"Estrogen Response Late","Interferon Gamma Response",0,0,0.008,FALSE
+"Dna Repair","Interferon Gamma Response",0,0,0.009,FALSE
+"Glycolysis","Interferon Gamma Response",0,0,0.008,FALSE
+"Estrogen Response Early","Interferon Gamma Response",0,0,0.003,FALSE
+"Unfolded Protein Response","Interferon Gamma Response",0,0,0.01,FALSE
+"Protein Secretion","Interferon Gamma Response",0,0,0.003,FALSE
+"Mtorc1 Signaling","Interferon Gamma Response",0,0,0.02,FALSE
+"Oxidative Phosphorylation","Interferon Gamma Response",0,0,0.003,FALSE
+"Heme Metabolism","Interferon Gamma Response",0,0,0.003,TRUE
+"Myogenesis","Interferon Gamma Response",0,0,0.005,TRUE
+"E2f Targets","Complement",0,0,0,FALSE
+"Myc Targets V1","Complement",0,0,0,FALSE
+"G2m Checkpoint","Complement",0,0,0,FALSE
+"Myc Targets V2","Complement",0,0,0,FALSE
+"Mitotic Spindle","Complement",0,0,0.003,FALSE
+"Estrogen Response Late","Complement",0,0,0.015,FALSE
+"Dna Repair","Complement",0,0,0.003,FALSE
+"Glycolysis","Complement",0,0,0.013,FALSE
+"Estrogen Response Early","Complement",0,0,0.005,FALSE
+"Unfolded Protein Response","Complement",0,0,0.006,FALSE
+"Protein Secretion","Complement",0,0,0.007,FALSE
+"Mtorc1 Signaling","Complement",0,0,0.013,FALSE
+"Oxidative Phosphorylation","Complement",0,0,0.008,FALSE
+"Myogenesis","Complement",0,0,0.013,TRUE
+"E2f Targets","Il2 Stat5 Signaling",0,0,0.005,FALSE
+"Myc Targets V1","Il2 Stat5 Signaling",0,0,0.005,FALSE
+"G2m Checkpoint","Il2 Stat5 Signaling",0,0,0.01,FALSE
+"Myc Targets V2","Il2 Stat5 Signaling",0,0,0.02,FALSE
+"Mitotic Spindle","Il2 Stat5 Signaling",0,0,0.005,FALSE
+"Estrogen Response Late","Il2 Stat5 Signaling",0,0,0.02,FALSE
+"Dna Repair","Il2 Stat5 Signaling",0,0,0.009,FALSE
+"Glycolysis","Il2 Stat5 Signaling",0,0,0.013,FALSE
+"Estrogen Response Early","Il2 Stat5 Signaling",0,0,0.031,FALSE
+"Unfolded Protein Response","Il2 Stat5 Signaling",0,0,0.003,FALSE
+"Protein Secretion","Il2 Stat5 Signaling",0,0,0.003,FALSE
+"Mtorc1 Signaling","Il2 Stat5 Signaling",0,0,0.023,FALSE
+"Oxidative Phosphorylation","Il2 Stat5 Signaling",0,0,0.003,FALSE
+"E2f Targets","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"Myc Targets V1","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"G2m Checkpoint","Il6 Jak Stat3 Signaling",0,0,0.003,FALSE
+"Myc Targets V2","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"Mitotic Spindle","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"Estrogen Response Late","Il6 Jak Stat3 Signaling",0,0,0.014,FALSE
+"Dna Repair","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"Glycolysis","Il6 Jak Stat3 Signaling",0,0,0.011,FALSE
+"Estrogen Response Early","Il6 Jak Stat3 Signaling",0,0,0.011,FALSE
+"Unfolded Protein Response","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"Protein Secretion","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"Mtorc1 Signaling","Il6 Jak Stat3 Signaling",0,0,0.003,FALSE
+"Oxidative Phosphorylation","Il6 Jak Stat3 Signaling",0,0,0,FALSE
+"Heme Metabolism","Il6 Jak Stat3 Signaling",0,0,0,TRUE
+"Myogenesis","Il6 Jak Stat3 Signaling",0,0,0.007,TRUE
+"E2f Targets","Kras Signaling Up",0,0,0,FALSE
+"Myc Targets V1","Kras Signaling Up",0,0,0,FALSE
+"G2m Checkpoint","Kras Signaling Up",0,0,0,FALSE
+"Myc Targets V2","Kras Signaling Up",0,0,0,FALSE
+"Mitotic Spindle","Kras Signaling Up",0,0,0.005,FALSE
+"Estrogen Response Late","Kras Signaling Up",0,0,0.02,FALSE
+"Dna Repair","Kras Signaling Up",0,0,0,FALSE
+"Glycolysis","Kras Signaling Up",0,0,0.015,FALSE
+"Estrogen Response Early","Kras Signaling Up",0,0,0.005,FALSE
+"Unfolded Protein Response","Kras Signaling Up",0,0,0.003,FALSE
+"Protein Secretion","Kras Signaling Up",0,0,0,FALSE
+"Mtorc1 Signaling","Kras Signaling Up",0,0,0.013,FALSE
+"Oxidative Phosphorylation","Kras Signaling Up",0,0,0,FALSE
+"E2f Targets","Tnfa Signaling via Nfkb",0,0,0.005,FALSE
+"Myc Targets V1","Tnfa Signaling via Nfkb",0,0,0.003,FALSE
+"G2m Checkpoint","Tnfa Signaling via Nfkb",0,0,0.013,FALSE
+"Myc Targets V2","Tnfa Signaling via Nfkb",0,0,0.008,FALSE
+"Mitotic Spindle","Tnfa Signaling via Nfkb",0,0,0.005,FALSE
+"Estrogen Response Late","Tnfa Signaling via Nfkb",0,0,0.031,FALSE
+"Dna Repair","Tnfa Signaling via Nfkb",0,0,0.003,FALSE
+"Glycolysis","Tnfa Signaling via Nfkb",0,0,0.013,FALSE
+"Estrogen Response Early","Tnfa Signaling via Nfkb",0,0,0.034,FALSE
+"Unfolded Protein Response","Tnfa Signaling via Nfkb",0,0,0.016,FALSE
+"Protein Secretion","Tnfa Signaling via Nfkb",0,0,0.003,FALSE
+"Mtorc1 Signaling","Tnfa Signaling via Nfkb",0,0,0.026,FALSE
+"Oxidative Phosphorylation","Tnfa Signaling via Nfkb",0,0,0,FALSE
+"E2f Targets","Inflammatory Response",0,0,0.005,FALSE
+"Myc Targets V1","Inflammatory Response",0,0,0.003,FALSE
+"G2m Checkpoint","Inflammatory Response",0,0,0.008,FALSE
+"Myc Targets V2","Inflammatory Response",0,0,0.004,FALSE
+"Mitotic Spindle","Inflammatory Response",0,0,0.005,FALSE
+"Estrogen Response Late","Inflammatory Response",0,0,0.003,FALSE
+"Dna Repair","Inflammatory Response",0,0,0.006,FALSE
+"Glycolysis","Inflammatory Response",0,0,0.013,FALSE
+"Estrogen Response Early","Inflammatory Response",0,0,0.013,FALSE
+"Unfolded Protein Response","Inflammatory Response",0,0,0.003,FALSE
+"Protein Secretion","Inflammatory Response",0,0,0.007,FALSE
+"Mtorc1 Signaling","Inflammatory Response",0,0,0.013,FALSE
+"Oxidative Phosphorylation","Inflammatory Response",0,0,0,FALSE
+"Myogenesis","Inflammatory Response",0,0,0.01,TRUE
+"E2f Targets","Allograft Rejection",0,0,0.008,FALSE
+"Myc Targets V1","Allograft Rejection",0,0,0.013,FALSE
+"G2m Checkpoint","Allograft Rejection",0,0,0.008,FALSE
+"Myc Targets V2","Allograft Rejection",0,0,0.004,FALSE
+"Mitotic Spindle","Allograft Rejection",0,0,0.008,FALSE
+"Estrogen Response Late","Allograft Rejection",0,0,0.005,FALSE
+"Dna Repair","Allograft Rejection",0,0,0.006,FALSE
+"Glycolysis","Allograft Rejection",0,0,0.005,FALSE
+"Estrogen Response Early","Allograft Rejection",0,0,0.005,FALSE
+"Unfolded Protein Response","Allograft Rejection",0,0,0.006,FALSE
+"Protein Secretion","Allograft Rejection",0,0,0.007,FALSE
+"Mtorc1 Signaling","Allograft Rejection",0,0,0.01,FALSE
+"Oxidative Phosphorylation","Allograft Rejection",0,0,0,FALSE

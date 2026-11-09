@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and this archive."
+title: "Analysis code for: Programme-level transcriptomic associations with progression-free survival in head and neck squamous cell carcinoma: a secondary analysis of GSE65858"
+authors:
+  - family-names: Ferguson
+    given-names: "Lloyd J."
+    # orcid: TODO
+  - family-names: Gardner
+    given-names: "Alex"   # TODO: confirm full name and add orcid
+license: MIT
+repository-code: "https://github.com/MD4002S-25-26/GSE65858-progression-free-survival-Hallmark-programme-analysis"
+# TODO after the first release: doi, version, date-released

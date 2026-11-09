@@ -1,0 +1,24 @@
+"pathway","cluster","direction","NES"
+"E2f Targets",1,"PFS-event-free at 2 years",-2.89
+"G2m Checkpoint",1,"PFS-event-free at 2 years",-2.71
+"Estrogen Response Late",2,"PFS-event-free at 2 years",-1.98
+"Estrogen Response Early",2,"PFS-event-free at 2 years",-1.66
+"Myc Targets V1",3,"PFS-event-free at 2 years",-2.73
+"Myc Targets V2",4,"PFS-event-free at 2 years",-2.26
+"Mitotic Spindle",5,"PFS-event-free at 2 years",-2.06
+"Dna Repair",6,"PFS-event-free at 2 years",-1.89
+"Glycolysis",7,"PFS-event-free at 2 years",-1.75
+"Unfolded Protein Response",8,"PFS-event-free at 2 years",-1.56
+"Protein Secretion",9,"PFS-event-free at 2 years",-1.44
+"Mtorc1 Signaling",10,"PFS-event-free at 2 years",-1.43
+"Oxidative Phosphorylation",11,"PFS-event-free at 2 years",-1.41
+"Heme Metabolism",12,"PFS event within 2 years",1.34
+"Myogenesis",13,"PFS event within 2 years",1.4
+"Interferon Gamma Response",14,"PFS event within 2 years",1.4
+"Complement",15,"PFS event within 2 years",1.71
+"Il2 Stat5 Signaling",16,"PFS event within 2 years",1.82
+"Il6 Jak Stat3 Signaling",17,"PFS event within 2 years",2.05
+"Kras Signaling Up",18,"PFS event within 2 years",2.08
+"Tnfa Signaling via Nfkb",19,"PFS event within 2 years",2.19
+"Inflammatory Response",20,"PFS event within 2 years",2.19
+"Allograft Rejection",21,"PFS event within 2 years",2.4
