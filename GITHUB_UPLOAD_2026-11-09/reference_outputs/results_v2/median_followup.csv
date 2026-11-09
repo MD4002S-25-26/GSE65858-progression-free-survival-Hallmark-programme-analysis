@@ -1,3 +1,0 @@
-"cohort","n","pfs_events","median_followup_days","ci_lower_days","ci_upper_days","median_followup_months","ci_lower_months","ci_upper_months","person_years","max_followup_days"
-"All patients with PFS data",270,133,1003,945,1060,33,31,34.8,565,2393
-"Cox analysis cohort",250,120,1002,941,1051,32.9,30.9,34.5,516,2310
