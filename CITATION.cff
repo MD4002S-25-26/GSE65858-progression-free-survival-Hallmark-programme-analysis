@@ -3,10 +3,11 @@ message: "If you use this code, please cite the associated manuscript and this a
 title: "Analysis code for: Programme-level transcriptomic associations with progression-free survival in head and neck squamous cell carcinoma: a secondary analysis of GSE65858"
 authors:
   - family-names: Ferguson
-    given-names: "Lloyd J"
+    given-names: "Lloyd"
     orcid: "https://orcid.org/0009-0009-3377-011X"
   - family-names: Gardner
-    given-names: "Alex"   # TODO: add orcid
+    given-names: "Alexander"
+    orcid: "https://orcid.org/0000-0001-8618-9622"
 license: MIT
 repository-code: "https://github.com/MD4002S-25-26/GSE65858-progression-free-survival-Hallmark-programme-analysis"
 # TODO after the first release: doi, version, date-released
