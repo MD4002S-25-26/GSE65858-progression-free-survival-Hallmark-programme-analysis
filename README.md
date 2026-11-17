@@ -2,7 +2,7 @@
 
 Analysis code for the manuscript *Programme-level transcriptomic associations with progression-free
 survival in head and neck squamous cell carcinoma: a secondary analysis of GSE65858*
-(citation and DOI: see `CITATION.cff`; to be added at the first release).
+(archived release v1.0.0: https://doi.org/10.5281/zenodo.24324942; citation details: see `CITATION.cff`).
 
 The analysis uses only public data (NCBI GEO series GSE65858, platform GPL10558). No new
 participant data were collected. This repository is research code, not clinical software.

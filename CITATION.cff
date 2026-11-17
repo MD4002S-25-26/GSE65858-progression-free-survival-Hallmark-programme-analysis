@@ -10,4 +10,6 @@ authors:
     orcid: "https://orcid.org/0000-0001-8618-9622"
 license: MIT
 repository-code: "https://github.com/MD4002S-25-26/GSE65858-progression-free-survival-Hallmark-programme-analysis"
-# TODO after the first release: doi, version, date-released
+doi: "10.5281/zenodo.24324942"
+version: "v1.0.0"
+date-released: "2026-11-17"
